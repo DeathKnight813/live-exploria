@@ -26,12 +26,12 @@ const toggelModalVisibility = () => {
     console.log("modal got opened or closed");
 };
 
-const callback = () => {
-    setTimeout(()=>{
-        modalBtnEl.classList.add('fade')
-    },1000)
-    toggelModalVisibility()
-}
+// const callback = () => {
+//     setTimeout(()=>{
+//         modalBtnEl.classList.add('fade')
+//     },1000)
+//     toggelModalVisibility()
+// }
 
 scheduleBtn.addEventListener("click", toggelModalVisibility);
 
